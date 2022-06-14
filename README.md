@@ -10,7 +10,7 @@
  4. PROGRAMMERS 
  5. COURSES
  6. ABOUT
- 7. SING IN/UP
+ 7. SIGN IN/UP
 
  ### LANGUAGES
   - Top Languages:
