@@ -1,0 +1,88 @@
+body {
+    background-image: url(background-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Helvetica Now Display';
+    margin: 0;
+}
+.back-form {
+    background-color: #494949;
+    width: 415px;
+    height: 735px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 4%;
+    text-align: center;
+}
+.back-form img {
+    width: auto;
+    height: 80px;
+    margin: 25px;
+}
+.back-form h1 {
+    font-size: 40px;
+    color: #188fff;
+    margin-top: 10%;
+    font-weight:bolder;
+}
+.back-form p {
+    font-size: 15px;
+    color: #828c93;
+}
+
+.sign-up-in ul { list-style: none; padding: 0; margin: 0; }
+.sign-up-in ul li {
+    display: inline-block;
+    padding: 1px 10px 0px 9px;
+    background-color: #494949;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 0px;
+}
+ul li.inactive { background-color: #2d2d2d;  }
+.sign-up-in div {
+    padding: 10px;
+    font-size: 20px;
+}
+.sign-up-in div:not(:first-of-type) {
+    display: none;
+}
+
+
+form {
+    margin-top: 50px;
+}
+input {
+    background-color: #494949;
+    margin: 5px 0;
+    width: 80%;
+    padding: 5px ;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 2px solid #dcdee2;
+    font-size: 15px;
+}
+input[type=submit]{
+    background-color: #188fff;
+    border: none;
+    width: 75%;
+    color: white;
+    padding: 10px 110px;
+    text-decoration: none;
+    margin:30px;
+    cursor: pointer;
+    border-radius:25px;
+}
+button {
+    text-align: center;
+    background: #bcbcbc;
+    border-radius: 20px;
+    width: 143px;
+    height: 32px;
+    font-size: 20px;
+    padding: 0;
+    margin: 1px;
+    
+    
+}

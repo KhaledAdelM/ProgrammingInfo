@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Programing INFO || Sing In & Up</title>
+        <script src="jquery-3.5.1.js"></script>
+        <script src="bootstrap-4.5.0/js/bootstrap.bundle.js"></script>
+        <link rel="stylesheet" href="ProgramingINFO-Sign-in-up-white.css">
+        <link rel="stylesheet" href="bootstrap-4.5.0/css/bootstrap.css">
+    </head>
+    <body>
+        
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Hello!</strong> If this is your first visit to our site, logn up.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+        <div class="back-form">
+            <a href="Programing%20INFO-HOME.html"><img src="Logo.png"></a>
+            <div class="sign-up-in">
+                <ul id="sign-up-in">
+                    <li id="form1"><h1>Sign In</h1></li>
+                    <li id="form2" class="inactive"><h1>Sign Up</h1></li>
+                </ul>
+                <div id="form1-det">
+                    <p>Your Account</p>
+                    <form>
+                        <input type="email" name="your-Email" required="required" placeholder="Your Email"><br>
+                        <input type="password" name="your-password" placeholder="Password"><br>
+                        <input type="submit" value="SIGN IN">
+                    </form>
+                </div>
+                <div id="form2-det">
+                    <p>Create a email address</p>
+                    <form>
+                       <input type="text" name="first-name" required="required" placeholder="First Name"><br>
+                        <input type="text" name="last-name" required="required" placeholder="Last Name"><br>
+                        <input type="email" name="now-Email" required="required" placeholder="Your Email"><br>
+                        <input type="tel" name="phone" required="required" placeholder="02+Your Phone"><br>
+                        <input type="password" name="now-password" placeholder="Password"><br>
+                        <input type="submit" value="SIGN UP">
+                    </form>
+                </div>
+                
+            </div>
+            <div class="theme">
+                <button value="-white"  type="button" class="btn btn-light">Light</button>
+                <button value="-dark"  type="button" class="btn btn-dark">Dark</button>
+        
+            </div>
+            
+            <script src="modes.js"></script>
+            <script src="tab-sign.js"></script>
+            
+        </div>
+    </body>
+</html>

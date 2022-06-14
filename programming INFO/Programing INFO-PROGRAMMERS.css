@@ -1,0 +1,154 @@
+body { 
+    font-family: 'Helvetica Now Display';
+    margin: 0px;
+    background-color: #f7f7f7;
+}
+.header { 
+    background-image: url(back.jpg);
+    background-size: 100% auto;
+    height: 965px;
+    background-repeat: no-repeat;
+}
+h1 {margin-left: 15px}
+ul { 
+    font-size: 20px;
+    list-style:none;
+    margin: 0;padding: 0;
+}
+ul li { 
+    display:inline-block;
+    padding: 15px;
+    color: white;
+}
+.icon {
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    margin-left: 35%;
+    margin-top: 5%;
+    text-align: center;
+    opacity: 80%;
+}
+.top-table {
+    margin-top: -100px;
+    text-align: center;
+}
+.top-table img {
+    width: auto; height: 650px;
+}
+.search {
+    text-align: center;
+}
+.search-input {
+    border: 3px solid #3FA6FF;
+    border-radius: 13px;
+    width: 800px;
+    height: 25px;
+    text-align: center;
+    margin: 15px 0px 5px;
+}
+.search-button {
+    text-align: center;
+    background: #0694FF;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 13px;
+    width: 190px;
+    height: 28px;
+    font-size: 18px;
+    padding: 3px;
+}
+.name-pro {font-size: 30px; margin: 0;}
+.born-pro {font-size: 20px; color:burlywood; margin: 0;}
+.all-programmer a {
+    color: #1f81e5;
+    text-decoration: none;
+}
+.all-programmer a:hover {
+    color:black;
+}
+.all-programmer td:hover { opacity: 90%; }
+.all-programmer img:hover {   animation: Anim 1s infinite;   position: relative; }
+@keyframes Anim {
+  50% {outline: 10px solid lightblue;}
+}
+
+.all-table {text-align: center;}
+.Pages {
+  display: inline-block;
+    text-align: center;
+}
+.Pages a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.Pages a.active {
+  background-color: #0694FF;
+  color: white;
+}
+.Pages img { width: auto; height: 30px; margin-top: -7px }
+.Pages a:hover:not(.active) {background-color: #ddd;}
+.text-image
+{
+    display: inline-block;
+    position: relative;
+    margin:0px;
+}
+.text-image::after
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+    content: attr(data-description);
+    top: 40%;
+    height: 60%;
+    color:chartreuse;
+    font-size: 24px;
+}
+.text-image:hover::before , .text-image:hover::after {
+    opacity: 1;
+}
+.worst-programmer {background-color: white; }
+.wor-pro { margin: 20px; overflow: hidden;}
+.wor-pro img {
+    width: auto;    height: 260px;
+    float: left;
+    margin-right: 15px;
+}
+.wor-pro p { 
+    font-size: 20px;
+    text-indent: 50px;
+    color: #969ea4;
+    margin-top: -15px;
+}
+.wor-pro a { text-decoration: none; }
+.wor-pro a:hover { color: black; text-decoration:underline;}
+.wor-pro h2 { margin-top:auto;}
+.footer { text-align: center;}
+.small-icon { width: auto; height: 55px;   display: inline; margin: 10px;}
+.copyright { background-color: #969ea4; }
+.type-button {     
+    text-align: center;
+    background: #0694FF;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 13px;
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    padding: 3px;
+}
+.sco-to-top {
+    color: #FFF;
+    display: inline-block;
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+.sco-to-top img { width: auto; height: 50px; }
