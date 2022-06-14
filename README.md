@@ -1,7 +1,10 @@
-# ProgrammingInfo
+# Programming Info
 
 ### Web Design
 [Behance](https://www.behance.net/gallery/111588853/Programming-INFO-Web-site).
+
+### Pages
+ 1. HOME 2. LANGUAGES 3. PROGRAMS 4. PROGRAMMERS 5. COURSES 6. ABOUT 7. SING IN/UP
 
  ### LANGUAGES
   - Top Languages:
